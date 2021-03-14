@@ -1,0 +1,13 @@
+[Unit]
+Description=Fix for the suspend issue
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c "echo XHC1 > /proc/acpi/wakeup && echo LID0 > /proc/acpi/wakeup"
+[Install]
+WantedBy=multi-user.target
+
+# /etc/systemd/system/suspend-fix.service
+# systemctl enable suspend-fix.service
+# systemctl start suspend-fix.service
+# mac suspend issue fix
+# https://wiki.archlinux.org/index.php/Mac
