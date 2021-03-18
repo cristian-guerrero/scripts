@@ -1,0 +1,5 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host wihom_assembly_server
+    HostName #server_ip
+    User ubuntu #server user
+    IdentityFile ~/keys/the_key.pem #key path
