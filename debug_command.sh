@@ -1,0 +1,3 @@
+
+#
+inxi -Fxxxz
