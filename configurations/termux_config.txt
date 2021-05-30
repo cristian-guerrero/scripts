@@ -1,0 +1,11 @@
+#storage
+termux-setup-storage
+
+
+#postgresql
+pg_ctl -D ~/datos_psql start
+pg_ctl -D ~/datos_psql stop
+
+#visual code
+code-server --auth none --disable-telemetry
+
