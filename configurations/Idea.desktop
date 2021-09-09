@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Terminal=false
-Name=idea
-Exec=idea
-Icon=/opt/apps/idea-IU-211.7142.45/bin/idea.svg
-
-#/usr/share/applications/Idea.desktop
