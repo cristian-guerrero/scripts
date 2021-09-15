@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=JetBrains Idea
+Exec=/opt/apps/idea-IU-211.7142.45/bin/idea.sh
+Icon=/opt/apps/idea-IU-211.7142.45/bin/idea.png
+Categories=development;util;

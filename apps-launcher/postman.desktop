@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Postman
+Exec=/opt/apps/Postman/app/Postman
+Icon=/opt/apps/Postman/app/resources/app/assets/icon.png
+Categories=development;util;
