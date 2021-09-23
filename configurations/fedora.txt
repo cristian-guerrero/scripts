@@ -1,0 +1,3 @@
+
+#install only security updates
+sudo dnf upgrade-minimal --security

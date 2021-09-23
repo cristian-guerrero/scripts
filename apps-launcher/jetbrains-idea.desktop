@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=IntelliJ IDEA Ultimate Edition
+Comment=Intelligent Java IDE
+Exec=/opt/apps/idea-IU-211.7142.45/bin/idea.sh
+Icon=intellij-idea-ultimate-edition
+Terminal=false
+StartupWMClass=jetbrains-idea
+Type=Application
+Categories=Development;IDE;

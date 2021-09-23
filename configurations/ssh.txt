@@ -1,0 +1,5 @@
+scp -i ec2-keypair ~/.ssh/id_rsa.pub ubuntu@XXXX.compute-1.amazonaws.com:~/
+ssh -i ec2-keypair ubuntu@XXXX.compute-1.amazonaws.com
+cat id_rsa.pub >> .ssh/authorized_keys
+rm id_rsa.pub
+
